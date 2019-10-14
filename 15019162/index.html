@@ -1,0 +1,2408 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+      -->
+
+  <!-- SEO -->
+  <title>Plot A Plot Sample Report</title>
+  <meta name="description"
+    content="WebSlides is the easiest way to create HTML presentations and landings. 120+ free slides ready to use.">
+
+  <!-- URL CANONICAL -->
+  <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+    rel="stylesheet">
+
+  <!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+  <!-- Optional - CSS SVG Icons (Font Awesome) -->
+  <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+
+  <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+  <!-- FACEBOOK -->
+  <meta property="og:url" content="http://your-url.com/permalink"> <!-- EDIT -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="WebSlides Landings: Create your web presence easily"> <!-- EDIT -->
+  <meta property="og:description"
+    content="Create simple, beautiful landing pages with WebSlides. 120+ free slides ready to use."> <!-- EDIT -->
+  <meta property="og:updated_time" content="2017-01-04T16:54:27"> <!-- EDIT -->
+  <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
+  <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
+  <meta name="twitter:title" content="WebSlides Landings: Create your web presence easily"> <!-- EDIT -->
+  <meta name="twitter:description"
+    content="Create simple, beautiful landing pages with WebSlides. 120+ free slides ready to use."> <!-- EDIT -->
+  <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+  <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+  <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+  <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+  <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+  <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+
+  <!-- Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#333333">
+</head>
+
+<body>
+
+  <main role="main">
+    <article id="webslides">
+
+      <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+      <!-- 1: INTRODUCTION -->
+      <section style="background-color: teal; color: white;">
+        <div style="position: fixed; top:0;"><img src="../../assets/images/plot-a-plot.png" width="50%" height="50%"></div>
+        <!-- -->
+        <div class="wrap aligncenter">
+          <p class="text-subtitle">Report</p>
+          <h2 id='dateOfGeneration'>GENERATED ON: 14/10/2019</h2>
+        </div>
+      </section>
+
+      <!-- 2: OVERVIEW -->
+      <section class="bg-black slide-top">
+        <span class="background" style="background-image:url('IMAGES/True Colour.jpg')"></span>
+        <div class="wrap">
+          <!-- <h2 class="text-landing">UGANDA</h2> -->
+          <p class="text-context text-intro">GPS location: 32.5971,0.3165</p>
+          <p class="text-context text-intro">Area Size: 0.0532 sq km or 0.0205 sq miles</p>
+        </div>
+      </section>
+
+      <!-- 3: TABLE OF CONTENTS -->
+      <section style="background-color: teal; color: white !important;">
+        <div class="wrap size-50">
+          <h3>Table of contents</h3>
+          <p></p>
+          <hr>
+          <ol class="text-cols">
+            <li><a target="_blank" href="#slide=2">Overview</a></li>
+            <li><a target="_blank" href="#slide=5">Contours and Elevation Model</a></li>
+            <li><a target="_blank" href="#slide=6">Vegetation Health</a></li>
+            <li><a target="_blank" href="#slide=9">Moisture</a></li>
+            <li><a target="_blank" href="#slide=12">Ground Surface Temperature</a></li>
+            <li><a target="_blank" href="#slide=15">Summary</a></li>
+            <li><a target="_blank" href="#slide=18">Comparison Pages</a></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 4: INTRO: DEM -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                <img src="IMAGES/DEM.jpg" alt="Pixel Phone">
+              </figure>
+            </div>
+            <div class="column">
+              <h2>
+                Contours and Elevation Model
+              </h2>
+              <p>The contours show the elevation of your area of interest and any variation therein. This can be used to determine what crops to plant and farm/construction practices to use.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5: DEM -->
+      <section class="align-center">
+        <div class="wrap">
+          <div class="grid vertical-align" style="text-align:justify;">
+            <div class="column">
+              <figure>
+                Contours
+                <img class="aligncenter" src="IMAGES/Contours.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Elevation Model
+                <img class="aligncenter" src="IMAGES/DEM.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6: NDVI: INTRO -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                <img src="Legends/explainerNDVI.jpg" alt="Pixel Phone">
+              </figure>
+            </div>
+            <div class="column">
+              <h2>
+                Vegetation
+              </h2>
+              <p class="text-intro">Normalized Difference Vegetation Index</p>
+              <p>Our vegetation index is a simple and effective way to quantify healthy versus unhealthy or non-existing vegetation. It is a representation of how leaves reflect in satellite near-infrared and infrared waves.
+                As a result, the maps show where vegetation is present and how healthy it is, what area is built up or exposed rock and what is water body.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7: NDVI: First year. From index file -->
+      <section class="fullscreen">
+        <div class="container">
+          <div class="embed">
+            <iframe width="100%" height="520" frameborder="0" src="mobirise/NDVI_firstYear/index.html" allowfullscreen
+              webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8: NDVI: Second year. From index file -->
+      <section class="fullscreen">
+        <div class="container">
+          <div class="embed">
+            <iframe width="100%" height="520" frameborder="0" src="mobirise/NDVI_secondYear/index.html" allowfullscreen
+              webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9: NDWI: INTRO -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                <img src="Legends/explainerNDWI.jpg" alt="Pixel Phone">
+              </figure>
+            </div>
+            <div class="column">
+              <h2>
+                Moisture
+              </h2>
+              <p class="text-intro">Normalized Difference Water Index</p>
+              <p>The moisture index is indicative of moisture in vegetation and exposed soil up to 5 cm deep, which shows how much water is available to (potential) vegetation. It also shows water bodies. The index is based on how water absorbs specific satellite waves.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10: NDWI: First year. From index file -->
+      <section class="fullscreen">
+        <div class="container">
+          <div class="embed">
+            <iframe width="100%" height="520" frameborder="0" src="mobirise/NDWI_firstYear/index.html" allowfullscreen
+              webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11: NDWI: Second year. From index file -->
+      <section class="fullscreen">
+        <div class="container">
+          <div class="embed">
+            <iframe width="100%" height="520" frameborder="0" src="mobirise/NDWI_secondYear/index.html" allowfullscreen
+              webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12: SURFACE TEMPERATURE: INTRO -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                <img src="Legends/explainerGST.jpg" alt="Pixel Phone">
+              </figure>
+            </div>
+            <div class="column">
+              <h2>
+                Surface temperature
+              </h2>
+              <p class="text-intro">Ground surface temperature is a measure of how hot/cold the earth feels to the touch and is important in selecting what crop to plant and how severe a drought was/is.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13: TEMPERATURE: First year. From index file -->
+      <section class="fullscreen">
+        <div class="container">
+          <div class="embed">
+            <iframe width="100%" height="520" frameborder="0" src="mobirise/Temp_firstYear/index.html" allowfullscreen
+              webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14: TEMPERATURE: Second year. From index file -->
+      <section class="fullscreen">
+        <div class="container">
+          <div class="embed">
+            <iframe width="100%" height="520" frameborder="0" src="mobirise/Temp_secondYear/index.html" allowfullscreen
+              webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 15: SUMMARY: INTRO -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <!-- <figure>
+                <img src="Legends/explainer.jpg" alt="Pixel Phone">
+              </figure> -->
+            </div>
+            <div class="column">
+              <h2>
+                Summary
+              </h2>
+              <p class="text-intro">The following grid maps shows the summary for the last 12 months. The summary maps is the average, minimum and maximum value of
+                the Vegetation Index, and Soil Moisture that was showed earlier</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 16: NDVI Summary for AOI  -->
+      <section class="align-center">
+        <div style='position: fixed; top: 0; z-index: 4;'>
+          <h5 class="mbr-section-title display-1">Vegetation Health Summary for AOI</h5>
+        </div>
+        <div class="wrap">
+          <ul class="flexblock specs">
+            <li>
+              <div>
+              </div>
+            </li>
+          </ul>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Average Vegetation Health
+                <img class="aligncenter" src="mobirise/Averages/ndvi_average.jpeg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Minimum Vegetation Health
+                <img class="aligncenter" src="mobirise/Averages/ndvi_min.jpeg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Maximum Vegetation Health
+                <img class="aligncenter" src="mobirise/Averages/ndvi_max.jpeg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 17: NDWI Summary for AOI  -->
+      <section class="align-center">
+        <div style='position: fixed; top: 0; z-index: 4;'>
+          <h5 class="mbr-section-title display-1">Mositure Summary for AOI</h5>
+        </div>
+        <div class="wrap">
+          <ul class="flexblock specs">
+            <li>
+              <div>
+              </div>
+            </li>
+          </ul>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Average Moisture
+                <img class="aligncenter" src="mobirise/Averages/ndwi_average.jpeg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Minimum Moisture
+                <img class="aligncenter" src="mobirise/Averages/ndwi_min.jpeg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Maximum Moisture
+                <img class="aligncenter" src="mobirise/Averages/ndwi_max.jpeg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 18: TEMPERATURE: Summary for AOI  -->
+      <!-- <section class="align-center">
+        <div style='position: fixed; top: 0; z-index: 4;'>
+          <h5 class="mbr-section-title display-1">Temperature Summary for AOI</h5>
+        </div>
+        <div class="wrap">
+          <ul class="flexblock specs">
+            <li>
+              <div>
+              </div>
+            </li>
+          </ul>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Average Temperature
+                <img class="aligncenter" src="data/landSuitability/Moisture/stats/average.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Minimum Temperature
+                <img class="aligncenter" src="data/landSuitability/Moisture/stats/minimum.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Maximum Temperature
+                <img class="aligncenter" src="data/landSuitability/Moisture/stats/maximum.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- 19: COMPARISON: INTRO -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                <!-- <img src="Legends/explainer.jpg" alt="Pixel Phone"> -->
+              </figure>
+            </div>
+            <div class="column">
+              <h2>
+                Comparison
+              </h2>
+              <p class="text-intro">The following grid maps shows the each individual months with its belonging data.
+                This makes give a better overview of each individual month</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 20: COMPARISON: first year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        </div>
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November" style='background-color: #F1C050 !important; color: teal !important;'>November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery00.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery00.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery00.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 21: COMPARISON: first year, February -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December" style='background-color: #F1C050 !important; color: teal !important;'>December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery01.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery01.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery01.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 22: COMPARISON: first year, March -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January" style='background-color: #F1C050 !important; color: teal !important;'>January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery02.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery02.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery02.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 23: COMPARISON: first year, April -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February" style='background-color: #F1C050 !important; color: teal !important;'>February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery03.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery03.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery03.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 24: COMPARISON: first year, May -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March" style='background-color: #F1C050 !important; color: teal !important;'>March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery04.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery04.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery04.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 25: COMPARISON: first year, June -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April" style='background-color: #F1C050 !important; color: teal !important;'>April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery05.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery05.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery05.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 26: COMPARISON: first year, July -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May" style='background-color: #F1C050 !important; color: teal !important;'>May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery06.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery06.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery06.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 27: COMPARISON: first year, August -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June" style='background-color: #F1C050 !important; color: teal !important;'>June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery07.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery07.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery07.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 28: COMPARISON: first year, September -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July"  style='background-color: #F1C050 !important; color: teal !important;'>July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery08.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery08.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery08.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 29: COMPARISON: first year, October -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August" style='background-color: #F1C050 !important; color: teal !important;'>August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery09.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery09.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery09.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 30: COMPARISON: first year, November -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September" style='background-color: #F1C050 !important; color: teal !important;'>September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery10.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery10.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery10.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 31: COMPARISON: first year, November -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 1</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=19" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=20" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=21" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=22" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=23" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=24" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=25" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=26" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=27" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=28" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=29" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=30" title="October" style='background-color: #F1C050 !important; color: teal !important;'>October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_firstYear/assets/images/gallery11.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_firstYear/assets/images/gallery11.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_firstYear/assets/images/gallery11.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 32: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        </div>
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November" style='background-color: #F1C050 !important; color: teal !important;'>November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery00.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery00.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery00.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 33: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December" style='background-color: #F1C050 !important; color: teal !important;'>December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery01.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery01.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery01.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 34: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January" style='background-color: #F1C050 !important; color: teal !important;'>January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery02.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery02.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery02.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 35: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February"  style='background-color: #F1C050 !important; color: teal !important;'>February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery03.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery03.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery03.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 36: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March" style='background-color: #F1C050 !important; color: teal !important;'>March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April" >April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery04.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery04.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery04.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <!-- 37: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April"  style='background-color: #F1C050 !important; color: teal !important;'>April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery05.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery05.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery05.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 38: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May" style='background-color: #F1C050 !important; color: teal !important;'>May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                Vegetation Health
+                <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery06.jpg"> </figure> <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Moisture Index
+                <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery06.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                Temperature
+                <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery06.jpg" alt="minimum">
+              </figure>
+              <figure>
+                Legend
+                <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 39: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June" style='background-color: #F1C050 !important; color: teal !important;'>June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery07.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery07.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery07.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 40: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July" style='background-color: #F1C050 !important; color: teal !important;'>July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery08.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery08.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery08.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 41: COMPARISON: second year, January -->
+      <section class="aligncenter"  style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August" style='background-color: #F1C050 !important; color: teal !important;'>August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery09.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery09.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery09.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 42: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September"style='background-color: #F1C050 !important; color: teal !important;'>September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" >October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery10.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery10.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery10.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 43: COMPARISON: second year, January -->
+      <section class="aligncenter" style="position: absolute; height: -webkit-fill-available;">
+        <header role="banner">
+          <div align="left">
+            <h5 class="mbr-section-title display-1">Year 2</h5>
+          </div>
+          <nav role="navigation">
+            <ul>
+              <li class="">
+                <a href="#slide=31" title="November">November</a>
+              </li>
+              <li class="">
+                <a href="#slide=32" title="December">December</a>
+              </li>
+              <li class="">
+                <a href="#slide=33" title="January">January</a>
+              </li>
+              <li class="">
+                <a href="#slide=34" title="February">February</a>
+              </li>
+              <li class="">
+                <a href="#slide=35" title="March">March</a>
+              </li>
+              <li class="">
+                <a href="#slide=36" title="April">April</a>
+              </li>
+              <li class="">
+                <a href="#slide=37" title="May">May</a>
+              </li>
+              <li class="">
+                <a href="#slide=38" title="June">June</a>
+              </li>
+              <li class="">
+                <a href="#slide=39" title="July">July</a>
+              </li>
+              <li class="">
+                <a href="#slide=40" title="August">August</a>
+              </li>
+              <li class="">
+                <a href="#slide=41" title="September">September</a>
+              </li>
+              <li class="">
+                <a href="#slide=42" title="October" style='background-color: #F1C050 !important; color: teal !important;'>October</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class='wrap'>
+          <div class="grid vertical-align">
+          <div class="column">
+            <figure>
+              Vegetation Health
+              <img class="aligncenter" src="mobirise/NDVI_secondYear/assets/images/gallery11.jpg"> </figure> <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDVI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Moisture Index
+              <img class="aligncenter" src="mobirise/NDWI_secondYear/assets/images/gallery11.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendNDWI.jpg" alt="minimum">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              Temperature
+              <img class="aligncenter" src="mobirise/Temp_secondYear/assets/images/gallery11.jpg" alt="minimum">
+            </figure>
+            <figure>
+              Legend
+              <img class="aligncenter" src="Legends/legendTemperature.jpg" alt="minimum">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- 44: Contact us -->
+      <section style="background-color: teal; color: white;">
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure>
+                <img src="../../assets/images/plot-a-plot.png" alt="">
+              </figure>
+            </div>
+            <div class="column">
+              <h2>
+                Contact us
+              </h2>
+              <p class="text-intro">Plot 30, Bukoto Street<br>Kamwokya<br>Kampala, Uganda</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </article>
+  </main>
+  <!--main-->
+
+  <!-- Required -->
+  <script src="static/js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+  <script defer src="static/js/svg-icons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="test.js"></script> -->
+
+</body>
+
+</html>
